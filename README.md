@@ -9,6 +9,8 @@ Folders:
 
 - `backdoor_models`: Fine-trained backdoored models with different colors.
 
+## Images
+
 Each image in LaserMark is names as the format:
 
 `"-%d_%s_%s.jpg"%(index, label_encoding, color)`
@@ -29,3 +31,16 @@ Below we list #pictures in each label in LaserMark. Notice that there are 60 pic
 <img src="statistic.png" alt="Statistic of #pictures in each label" title="Statistic of #pictures in each label">
 
 After the COVID-19, we'll collect more images to entend LaserMark.
+
+## Models
+
+We provide three traffic-sign recognition DNN models (pytorch dictionary) embeded with corresonding backdoors which need to be triggered by laser points. Here is their accuracy:
+
+    | 1     | red   | green   | blue  |
+    | ----  | ----  |  ----   | ----  |
+    |Normal | 97.1% | 99.4%   | 98.7% |
+    |Attack | 94.6% | 94.6%   | 96.2% |
+
+`Normal` stands for the accuracy to recognize pictures without triggers in TT100K.
+
+`Attack` stands for the attack success rate using pictures with corresponding physical triggers in LaserMark.
