@@ -1,11 +1,13 @@
 # LaserMark
 Traffic Signs Dataset with Laser Points as Backdoor Triggers
 
-`origin`: Origin dataset images
+Folders:
 
-`added`: Added dataset images
+- `origin`: Origin dataset images
 
-`backdoor_models`: Fine-trained backdoored models with different colors.
+- `added`: Added dataset images
+
+- `backdoor_models`: Fine-trained backdoored models with different colors.
 
 Each image in LaserMark is names as the format:
 
@@ -19,6 +21,7 @@ There is four colors of laser points:
 - 'c': clean(without laser points)
 
 Here is the label-encodings of different traffic marks provided by TT100K.
+
 <img src="marks.png" alt="Label-encodings" title="Label-encodings in LaserMark">
 
 Below we list #pictures in each label in LaserMark. Notice that there are 60 pictures which do not belong to any labels in the former label-encodings, we mark them as label `uk`.
