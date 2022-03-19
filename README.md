@@ -9,4 +9,4 @@ Traffic Signs Dataset with Laser Point as Trigger
 
 `backdoor_models`: Fine-trained backdoored models with different colors.
 
-![Statistic of #pictures in each label](statistic.pdf ''Statistic of #pictures in each label'')
+<img src="statistic.pdf" alt="Statistic of #pictures in each label" title="Statistic of #pictures in each label">
