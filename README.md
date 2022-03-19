@@ -44,3 +44,5 @@ We provide three traffic-sign recognition DNN models (pytorch dictionary) embede
 `Normal` stands for the accuracy to recognize pictures without triggers in TT100K.
 
 `Attack` stands for the attack success rate using pictures with corresponding physical triggers in LaserMark.
+
+The resnet-34 model is also provided in the same folder.
